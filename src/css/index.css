@@ -1,17 +1,32 @@
 :root.light {
-    --bg: #FFF;
-    --primary: #0F172A;
-    --secondary: #334155;
-    --text-highlight: #38BDF8;
-    --cards: #F4F6F8;
-    --cards-highlight: #EBF8FE;
+  --bg: #ede9fe;
+  --primary: #2e1065;
+  --secondary: #334155;
+  --menu: #ddd6fe;
+  --highlight: #8b5cf6;
+  --cards: #6d28d9;
+  --cards-highlight: #7c3aed;
 }
 
 :root.dark {
-    --bg: #0F172A;
-    --primary: #E1E7EF;
-    --secondary: #94A3B8;
-    --text-highlight: #0EA5E9;
-    --cards: #1E293B;
-    --cards-highlight: #152940;
+  --bg: #14072c;
+  --primary: #ede9fe;
+  --secondary: #94a3b8;
+  --menu: #64748b;
+  --highlight: #6d28d9;
+  --cards: #2e1065;
+  --cards-highlight: #4c1d95;
+}
+
+body {
+  margin: 1em;
+  background-color: var(--bg);
+  color: var(--primary);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
 }

@@ -1,8 +1,10 @@
-document.querySelector(".botao-tema").addEventListener("click", switchTheme);
-function switchTheme() {
-    const root = document.documentElement;
-    const newTheme = root.className === 'light' ? 'dark' : 'light';
-    const botao = newTheme === 'dark' ? 'light' : 'dark';
-    root.className = newTheme;
-    this.innerHTML = `<span class="material-icons" id="icone-tema">${botao}_mode</span>${botao} mode`;
-}
+import "./css/reset.css";
+import "./css/index.css";
+import Default from "./pages/default.js";
+import Header from "./pages/header.js";
+import Sidenav from "./pages/sidenav.js";
+import { checkUserPreference } from "./functions/tema.js";
+
+checkUserPreference();
+const main = document.querySelector("main");
+main.appendChild(Header());

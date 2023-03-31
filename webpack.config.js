@@ -8,7 +8,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Output Management",
+      title: "To-Do",
+      favicon: "./src/assets/icons/favicon.ico",
+      template: "./src/index.html",
     }),
   ],
   devtool: "inline-source-map",
