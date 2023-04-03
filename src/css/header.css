@@ -29,7 +29,7 @@ button {
 }
 
 button:hover {
-  color: var(--menu-hover);
+  color: var(--highlight);
 }
 
 /*search bar*/

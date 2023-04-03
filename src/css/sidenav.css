@@ -1,0 +1,38 @@
+.sidenav {
+  height: 50rem;
+  width: 14rem;
+  background-color: var(--bg);
+  border-right: 1px solid var(--menu);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav.hidden {
+  visibility: hidden;
+}
+
+.sidenav div {
+  padding: 1rem;
+}
+
+.sidenav div:hover {
+  background-color: var(--hover);
+  cursor: pointer;
+}
+
+#inbox span {
+  color: #38bdf8;
+}
+
+#hoje span {
+  color: #4ade80;
+}
+
+#semana span {
+  color: #f87171;
+}
+
+#favoritos span {
+  color: #fbbf24;
+}

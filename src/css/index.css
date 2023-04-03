@@ -2,6 +2,7 @@
   --bg: #ede9fe;
   --primary: #2e1065;
   --secondary: #334155;
+  --hover: #d8d8d8;
   --menu: #ddd6fe;
   --highlight: #8b5cf6;
   --cards: #6d28d9;
@@ -12,6 +13,7 @@
   --bg: #14072c;
   --primary: #ede9fe;
   --secondary: #94a3b8;
+  --hover: #2e1065;
   --menu: #64748b;
   --highlight: #6d28d9;
   --cards: #2e1065;
@@ -21,7 +23,7 @@
 body {
   margin: 1em;
   background-color: var(--bg);
-  color: var(--primary);
+  color: var(--secondary);
   font-family: "Poppins", sans-serif;
   font-size: 1.2em;
 }
